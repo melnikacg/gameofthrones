@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:colorButtonNormal">@color/buttonColor</item>
+    </style>
+
+</resources>

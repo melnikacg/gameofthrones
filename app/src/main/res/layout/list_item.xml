@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recycler_item_height"
+    android:gravity="top"
+    android:paddingLeft="@dimen/recycler_item_icon_padding_left"
+    android:paddingRight="@dimen/recycler_item_text_padding_right"
+    android:paddingTop="@dimen/recycler_item_text_padding_top"
+    android:paddingBottom="@dimen/recycler_item_text_padding_top"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="@dimen/recycler_item_icon_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/coat_of_arms"
+        android:paddingRight="@dimen/recycler_item_icon_padding_right"
+        android:scaleType="fitStart" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/character_name"
+            android:textSize="16sp"
+            android:textColor="@color/recyclerTextColorPrimary"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:id="@+id/character_aliases"
+            android:textSize="14sp"
+            android:textColor="@color/recyclerTextColorSecondary"
+            android:ellipsize="end" />
+    </LinearLayout>
+</LinearLayout>

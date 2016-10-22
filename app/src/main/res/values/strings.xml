@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Game of Thrones</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="details_words">Words:</string>
+    <string name="details_born">Born:</string>
+    <string name="details_titles">Titles:</string>
+    <string name="details_aliases">Aliases:</string>
+    <string name="details_father">Father:</string>
+    <string name="details_mother">Mother:</string>
+    <string name="details_died">Died:</string>
+</resources>
